@@ -662,7 +662,7 @@ margin: 0 auto;
 .icon-modal:focus {
   fill: #4d5ae5;
 }
-.form-input-modal:hover .icon-modal{
+.input-modal:hover .icon-modal{
   fill: #4d5ae5;
 }
 .form-textarea::placeholder{
