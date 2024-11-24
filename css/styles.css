@@ -738,12 +738,12 @@ height: 120px;
 
 
  .button-send{
-  display: flex;
+  display: block;
   border-radius: 4px;
     padding: 16px 32px;
     min-width: 169px;
     height: 56px;
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -759,6 +759,8 @@ height: 120px;
     cursor: pointer;
   
     margin-top: 24px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  input[type="checkbox"]:checked +.form-checkbox .checkbox-agreement{
   background-color: #F4F4FD;
