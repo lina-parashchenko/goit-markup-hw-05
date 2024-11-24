@@ -632,10 +632,22 @@
             ></textarea>
           </div>
 
-          <div>
-            <input type="checkbox" name="checkbox" id="checkbox" />
+          <div class="form-modal-checkbox">
+            <input
+              type="checkbox"
+              class="visually-hidden"
+              name="checkbox"
+              id="checkbox"
+            />
             <label class="form-checkbox" for="checkbox"
-              >I accept the terms and conditions of the Privacy Policy</label
+              ><span class="checkbox-agreement">
+                <svg class="card-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+
+              I accept the terms and conditions of the
+              <a href="" class="checkbox-link">Privacy Policy</a></label
             >
           </div>
           <div>

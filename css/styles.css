@@ -699,7 +699,51 @@ margin: 0 auto;
     color: #fff;
     cursor: pointer;
   
+    margin-top: 24px;
  }
+ input[type="checkbox"]:checked +.form-checkbox .checkbox-agreement{
+  background-color: #404bbf;
+ }
+
+.card-scon{
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked+.form-checkbox .checkbox-agreement .card-icon{
+  opacity: 1;
+}
+
+.form-checkbox{
+  font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+
+    margin-right: 8px;
+}
+
+.checkbox-link{
+  line-height: 1.33333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+
+}
+
+
+.checkbox-agreement{
+  display:inline-flex;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+ align-items: center;
+ justify-content: center;
+
+ cursor: pointer;
+}
 
  .button-send:hover,.button-send:focus{
   background-color: #404bbf;
