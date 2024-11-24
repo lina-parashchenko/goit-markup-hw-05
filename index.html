@@ -578,7 +578,7 @@
         <p class="modal-text">Leave your contacts and we will call you back</p>
 
         <form class="modal-field-container">
-          <div class="form-person">
+          <div class="form-modal-punct">
             <label class="modal-name" for="user-name">Name</label>
             <div class="input-modal">
               <input
@@ -593,7 +593,7 @@
             </div>
           </div>
 
-          <div class="form-tel">
+          <div class="form-modal-punct">
             <label class="modal-name" for="input-tel">Phone</label>
             <div class="input-modal">
               <input
@@ -608,8 +608,8 @@
             </div>
           </div>
 
-          <div class="form-email">
-            <label class="modal-name" for="input-email">E-mail</label>
+          <div class="form-modal-punct">
+            <label class="modal-name" for="input-email">Email</label>
             <div class="input-modal">
               <input
                 class="form-input-modal"
@@ -623,12 +623,12 @@
             </div>
           </div>
 
-          <div class="form-textarea">
-            <label class="modal-name" for="comment">Comment</label>
+          <div class="form-modal-punct">
+            <label class="modal-name" for="user-comment">Comment</label>
             <textarea
               class="form-textarea-modal"
-              name="comment"
-              id="comment"
+              name="user-comment"
+              id="user-comment"
               rows="5"
               placeholder="Text input"
             ></textarea>
@@ -638,10 +638,11 @@
             <input
               type="checkbox"
               class="visually-hidden"
-              name="checkbox"
-              id="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
             />
-            <label class="form-checkbox" for="checkbox"
+            <label class="form-checkbox" for="user-privacy"
               ><span class="checkbox-agreement">
                 <svg class="card-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
@@ -652,7 +653,7 @@
               <a href="" class="checkbox-link">Privacy Policy</a></label
             >
           </div>
-          <div>
+          <div class="button-send-modal">
             <button class="button-send" type="submit">Send</button>
           </div>
         </form>
