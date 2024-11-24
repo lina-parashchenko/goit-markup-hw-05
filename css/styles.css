@@ -702,7 +702,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #4d5ae5;
 }
 .input-modal:hover .icon-modal{
-  fill: #4d5ae5;
+  fill: #4D5AE5;
 }
 .form-textarea-modal::placeholder{
   font-size: 12px;
@@ -712,7 +712,16 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
    
 }
+
+.form-modal-text{
+  margin-bottom: 16px;
+}
  .form-textarea-modal{
+line-height: 1.17;
+font-size: 12px;
+height: 120px;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
@@ -724,6 +733,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
       cursor: pointer;
  }
 .form-textarea-modal:hover, .form-textarea-modal{
+  border-color: #4D5AE5;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 
@@ -751,10 +761,14 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-top: 24px;
  }
  input[type="checkbox"]:checked +.form-checkbox .checkbox-agreement{
-  background-color: #404bbf;
+  background-color: #F4F4FD;
  }
 
-.card-scon{
+ .form-modal-checkbox{
+  margin-bottom: 24px;
+ }
+
+.card-icon{
   opacity: 0;
 }
 
