@@ -489,6 +489,12 @@ align-items: baseline;
       margin-bottom: 16px;
       }
 
+  .form-footer{
+    display: flex;
+    gap: 24px;
+  }
+
+
   .button-footer{
     display: flex;
     border-radius: 4px;
@@ -514,7 +520,7 @@ align-items: baseline;
   margin-left: 16px;
 }
 
- .input-wrapper{
+.subscribe-label{
   gap: 24px;
  
  }
