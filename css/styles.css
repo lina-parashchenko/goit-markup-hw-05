@@ -627,6 +627,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
   fill:#ffffff;
 }
 
+.button-close:hover .icon-soc-modal{
+fill: #ffffff;
+
+}
 .icon-soc-modal{
   
   align-items: center;
@@ -655,7 +659,7 @@ width: 360px;
 margin: 0 auto;
 }
 .form-modal-punct{
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .input-modal{
