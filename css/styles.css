@@ -731,6 +731,8 @@ height: 120px;
       outline: transparent;
       transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
       cursor: pointer;
+
+      border: 1px solid rgba(46, 47, 66, 0.4) 
  }
 .form-textarea-modal:hover, .form-textarea-modal{
   border-color: #4D5AE5;
