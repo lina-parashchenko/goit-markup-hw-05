@@ -624,10 +624,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 
 
-.icon-soc-modal:hover,.icon-soc-modal:focus{
-fill: #ffffff;
+.button-close:hover .icon-soc-modal:{
+fill: #ffffff;}
+.button-close:focus .icon-soc-modal:{
+  fill: #ffffff;}
 
-}
+
+
 .icon-soc-modal{
   
   align-items: center;
